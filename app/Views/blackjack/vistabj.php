@@ -27,7 +27,7 @@
         </div>
         <div class="player">
             <img src="<?php echo base_url(); ?>/assets/images/2-C.png" alt="">
-            <img src="<?php echo base_url(); ?>/assets/images/2-H.png" alt="">
+            <img src="<?php echo base_url(); ?>/assets/images/ficha100.png" alt="">
             <div class="player-text">
                 <h3>Jugador 1: Andry</h3>
             </div>
