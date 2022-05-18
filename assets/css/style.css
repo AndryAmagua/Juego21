@@ -12,43 +12,58 @@ h1{
     font-size: 50px;
     font-style: italic;
 }
+input{
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    border-style: none;
+}
+input[type="button"]:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.5);
+}
 .dealer{
     width: 600px;
-    height: 200px;
+    height: 150px;
     margin: auto;
+    background-color: rgba(255, 255, 255, 0.2);;
     border-width: 3px;
     border-style: solid;
     border-color: white;
     border-radius: 15px;
 }
 .dealer img{
-    margin: 10px;
+    padding: 8px 3px ;
     height: 90%;
 }
 .players{
     text-align: center;
-    padding-top: 60px;
+    padding-top: 20px;
     display: flex;
-    
+}
+.container-player{
+    padding: 10px;
+    margin: auto;
 }
 .player{
-    width: 300px;
-    height: 200px;
-    margin: auto;
+    width: 400px;
+    height: 250px;
     border-width: 3px;
     border-style: solid;
     border-color: white;
     border-radius: 15px;
 }
-.player img{
-    margin: 10px;
-    height: 40%;
+.player .container-cartas img{
+    padding-top:10px;
+    height: 90px;
 }
-input{
-    color: white;
-    width: 100px;
-    height: 30px;
-    background-color: blue;
-    border-radius: 10px;
-    border-style: none;
+.apuesta{
+    padding-top: 50px;
+}
+.buttons{
+    padding: 5px;
+    margin: auto;
 }

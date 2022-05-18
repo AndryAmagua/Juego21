@@ -12,41 +12,72 @@
     <div class="dealer">
         <img src="<?php echo base_url(); ?>/assets/images/BACK.png" alt="">
         <img src="<?php echo base_url(); ?>/assets/images/2-C.png" alt="">
+        <img src="<?php echo base_url(); ?>/assets/images/2-H.png" alt="">
+        <img src="<?php echo base_url(); ?>/assets/images/2-C.png" alt="">
     </div>
     <div class="players">
-        <div class="player">
-            <img src="<?php echo base_url(); ?>/assets/images/5-H.png" alt="">
-            <img src="<?php echo base_url(); ?>/assets/images/2-H.png" alt="">
-            <div class="player-text">
-                <h3>Jugador 2: Chasi</h3>
+        <div class="container-player">
+            <div class="player">
+                <div class="container-cartas">
+                    <img src="<?php echo base_url(); ?>/assets/images/5-H.png" alt="">
+                    <img src="<?php echo base_url(); ?>/assets/images/2-H.png" alt="">
+                    <img src="<?php echo base_url(); ?>/assets/images/5-H.png" alt="">
+                    <img src="<?php echo base_url(); ?>/assets/images/2-H.png" alt="">
+                    <img src="<?php echo base_url(); ?>/assets/images/2-H.png" alt="">
+                    <img src="<?php echo base_url(); ?>/assets/images/2-H.png" alt="">
+                </div>
+                <div class="apuesta">
+                    <input type="text" placeholder="Apuesta:">
+                    <input type="button" value="Apostar">
+                </div>
+                <div class="buttons">
+                    <input type="button" value="Pedir Carta">
+                    <input type="button" value="Plantarse">
+                    <input type="button" value="Doblar">
+                </div>
             </div>
-            <div class="button">
-                <input type="button" value="Pedir Carta">
-                <input type="button" value="Plantarse">
-            </div>
+            <h4>Jugador 2: Chasi</h4>
         </div>
-        <div class="player">
-            <img src="<?php echo base_url(); ?>/assets/images/2-C.png" alt="">
-            <img src="<?php echo base_url(); ?>/assets/images/ficha100.png" alt="">
-            <div class="player-text">
-                <h3>Jugador 1: Andry</h3>
+        <div class="container-player">
+            <div class="player">
+                <div class="container-cartas">
+                    <img src="<?php echo base_url(); ?>/assets/images/5-H.png" alt="">
+                    <img src="<?php echo base_url(); ?>/assets/images/2-H.png" alt="">
+                    <img src="<?php echo base_url(); ?>/assets/images/5-H.png" alt="">
+                    <img src="<?php echo base_url(); ?>/assets/images/2-H.png" alt="">
+                    <img src="<?php echo base_url(); ?>/assets/images/2-H.png" alt="">
+                </div>
+                <div class="apuesta">
+                    <input type="text" placeholder="Apuesta:">
+                    <input type="button" value="Apostar">
+                </div>
+                <div class="buttons">
+                    <input type="button" value="Pedir Carta">
+                    <input type="button" value="Plantarse">
+                    <input type="button" value="Doblar">
+                </div>
             </div>
-            <div class="button">
-                <input type="button" value="Pedir Carta">
-                <input type="button" value="Plantarse">
-            </div>
+            <h4>Jugador 2: Chasi</h4>
         </div>
-        <div class="player">
-            <img src="<?php echo base_url(); ?>/assets/images/2-H.png" alt="">
-            <img src="<?php echo base_url(); ?>/assets/images/2-H.png" alt="">
-            <img src="<?php echo base_url(); ?>/assets/images/2-H.png" alt="">
-            <div class="player-text">
-                <h3>Jugador 3: Andres</h3>
+        <div class="container-player">
+            <div class="player">
+                <div class="container-cartas">
+                    <img src="<?php echo base_url(); ?>/assets/images/5-H.png" alt="">
+                    <img src="<?php echo base_url(); ?>/assets/images/2-H.png" alt="">
+                    <img src="<?php echo base_url(); ?>/assets/images/5-H.png" alt="">
+                    <img src="<?php echo base_url(); ?>/assets/images/2-H.png" alt="">
+                </div>
+                <div class="apuesta">
+                    <input type="text" placeholder="Apuesta:">
+                    <input type="button" value="Apostar">
+                </div>
+                <div class="buttons">
+                    <input type="button" value="Pedir Carta">
+                    <input type="button" value="Plantarse">
+                    <input type="button" value="Doblar">
+                </div>
             </div>
-            <div class="button">
-                <input type="button" value="Pedir Carta">
-                <input type="button" value="Plantarse">
-            </div>
+            <h4>Jugador 2: Chasi</h4>
         </div>
     </div>
 </body>
