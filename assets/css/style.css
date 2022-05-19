@@ -1,15 +1,14 @@
 body{
     background-color:black;
-    color: white;
     background-image: url("../images/mesacasino.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 h1{
-    padding: 10px;
     text-align: center;
     text-decoration: underline;
     font-size: 50px;
+    color: beige;
     font-style: italic;
 }
 .dealer{
@@ -52,3 +51,4 @@ input{
     border-radius: 10px;
     border-style: none;
 }
+
