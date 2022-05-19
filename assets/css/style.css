@@ -1,18 +1,12 @@
 body{
-<<<<<<< HEAD
     background-color:black;
-=======
->>>>>>> 0cf87524472781b1b8f28614704f08f241f4f71d
     background-image: url("../images/mesacasino.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 h1{
-<<<<<<< HEAD
-=======
     color: white;
     padding: 10px;
->>>>>>> 0cf87524472781b1b8f28614704f08f241f4f71d
     text-align: center;
     text-decoration: underline;
     font-size: 50px;
@@ -78,12 +72,9 @@ input[type="button"]:hover{
 .apuesta{
     padding-top: 50px;
 }
-<<<<<<< HEAD
-=======
 .buttons{
     padding: 5px;
     margin: auto;
 }
 
->>>>>>> 0cf87524472781b1b8f28614704f08f241f4f71d
 
