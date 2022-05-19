@@ -1,22 +1,28 @@
 body{
-    background-color:black;
-    color: white;
     background-image: url("../images/mesacasino.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 h1{
+    color: white;
     padding: 10px;
     text-align: center;
     text-decoration: underline;
     font-size: 50px;
     font-style: italic;
 }
+h4{
+    color: white;
+    font-size: 15px;
+}
+p{
+    text-align: justify;
+}
 input{
     width: 80px;
     height: 40px;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 15px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
     border-style: none;
@@ -36,7 +42,8 @@ input[type="button"]:hover{
     border-radius: 15px;
 }
 .dealer img{
-    padding: 8px 3px ;
+    padding-top: 20px;
+    padding-left: 5px;
     height: 90%;
 }
 .players{
@@ -45,7 +52,7 @@ input[type="button"]:hover{
     display: flex;
 }
 .container-player{
-    padding: 10px;
+    padding-top: 40px;
     margin: auto;
 }
 .player{
@@ -67,3 +74,5 @@ input[type="button"]:hover{
     padding: 5px;
     margin: auto;
 }
+
+
