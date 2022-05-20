@@ -36,17 +36,18 @@ input[type="button"]:hover{
 .dealer{
     width: 600px;
     height: 150px;
+    text-align: center;
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.2);;
+    background-color: rgba(255, 255, 255, 0.2);
     border-width: 3px;
     border-style: solid;
     border-color: white;
     border-radius: 15px;
 }
 .dealer img{
-    padding-top: 20px;
-    padding-left: 5px;
+    padding-top: 10px;
     height: 90%;
+    margin: 0 0 0 -4rem;
 }
 .players{
     text-align: center;
@@ -67,7 +68,9 @@ input[type="button"]:hover{
 }
 .player .container-cartas img{
     padding-top:10px;
+    padding-left:5px;
     height: 90px;
+    margin: 0 0 0 -3rem;
 }
 .apuesta{
     padding-top: 50px;
@@ -76,5 +79,58 @@ input[type="button"]:hover{
     padding: 5px;
     margin: auto;
 }
-
-
+.btn{
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    border-style: none;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.5);
+}
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+ /* Modal Content */
+.modal-content {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
